@@ -1,66 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero section */
+
+.hero{
+    background: url(/img/augustbanner.png) no-repeat;
+    width: 1210px;
+    height:600px;
+}
+
+
+.tag-line{
+    margin-top: 150px;
+    font-size: 80px;
+    color: white;
+}
+.sub-line{
+    color: white;
+    font-size: 35px;
+    
+}
+.waves{
+    width: 1215px !important;
+}
+
+
+
+/* Team Section */
+.our-team{
+    background-color: #078CCC;
+}
+
+.members{
+    
+    display: flex;
+    margin-bottom: 50px;
+    
+    background: white;
+    border-radius: 20px;
+}
+.members .content{
+    padding-left: 10px;
+}
+.members .img-fluid{
+    padding: 10px; height: 250px;
+    border-radius: 30px;
+    padding-top: 20px;
+}
+.members:hover{
+    margin-top: 20px;
+    transition: all 0.05s ease-out;
+}
+/* end */
+
+/* Acquainted Section */
+.detail1{
+    padding: 50px;
+}
+.detail{
+    padding: 100px;
+}
+.detail1 img{
+    border-radius: 50%;
+}
+/* Utsav Css */
+/* Footer */
 .heading{
-   color: white;
-   font-size: 20px;
-}
-
-.btn1{
-   width: 170px;
-   box-shadow: 4px 3px rgba(0,0,0,0.2);
-   border-radius: 5px;
-   font-weight: 500;
-}
-
-
-.newsletter{
-   color: white;
-   font-size: 25px;
-}
-
-.btn2{
-   background-color: #025b85;
-   color:white;
-   border-radius: 0px 20px 20px 0px;
-   height: 45px;
-   border: none;
-
-} 
-
-
-.btn2:hover {
-   background-color: #477c94;
-   box-shadow: 4px 3px rgba(0,0,0,0.2);
-   color:white;
-}
-
-.aboutSection > h5{
-   color: white;
-   font-weight: 400;
-   font-size: 17px;
-   letter-spacing: 1px;
-   margin-bottom: 15px;
-}
-
-.aboutSection > p{
-   color: rgb(231, 231, 231);
-   font-weight: bold;
-   font-size: 10px;
-   letter-spacing: 1.2px;
-}
-
-.lastCol {
-   color: white;
-   font-size: 14px;
-   font-weight: bold;
-}
-hr{
-   border: 1px solid white;
-   width: 100%;
-   margin-top: 10px;
-}
-
-@media  (max-width: 768px) {
-   .navbar-collapse{
-      text-align: center;
-   }
-}
-
+    color: white;
+    font-size: 20px;
+ }
+ 
+ .btn1{
+    width: 170px;
+    box-shadow: 4px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    font-weight: 500;
+ }
+ 
+ 
+ .newsletter{
+    color: white;
+    font-size: 25px;
+ }
+ 
+ .btn2{
+    background-color: #025b85;
+    color:white;
+    border-radius: 0px 20px 20px 0px;
+    height: 45px;
+    border: none;
+ 
+ } 
+ 
+ 
+ .btn2:hover {
+    background-color: #477c94;
+    box-shadow: 4px 3px rgba(0,0,0,0.2);
+    color:white;
+ }
+ 
+ .aboutSection > h5{
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+ }
+ 
+ .aboutSection > p{
+    color: rgb(231, 231, 231);
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 1.2px;
+ }
+ 
+ .lastCol {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+ }
+ hr{
+    border: 1px solid white;
+    width: 100%;
+    margin-top: 10px;
+ }
+ 
+/* End -Utsav */

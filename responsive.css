@@ -1,0 +1,76 @@
+/* banner */
+@media screen and (max-width:400px) {
+    .hero{
+       background: url(/img/augustbanner.png) no-repeat;
+       width: 370px;
+       height: 250px;
+   }
+   .tag-line{
+       margin-top: 50px !important;
+       font-size: 30px !important;
+       color: white;
+   }
+   .sub-line{
+       color: white;
+       font-size: 15px !important;
+   }
+   /* End */
+
+   /* our team */
+   .members .img-fluid{
+   
+       width: 20% !important;
+   
+   }
+   
+   .our-team h2{
+       font-size: 50px !important;
+   }
+   .our-team .under-line{
+       width:70% !important;
+       margin-left: 15% !important;
+   }
+   
+
+   
+.members .img-fluid{
+    width: 350px !important;
+    
+}
+/* End */
+
+/* Acquainted */
+.detail1{
+    position: absolute;
+    bottom: -1350px;
+    
+
+}
+
+.detail{
+    position: absolute;
+    bottom: -1800px;
+}
+.details p{
+    font-size: 12px !important;
+}
+/* End */
+
+/* footer */
+.container{
+    position: absolute;
+    top: 2380px;
+    background-color:#078CCC ;
+} 
+
+
+
+}  
+/* navbar */
+@media  (max-width: 768px) {
+    .navbar-collapse{
+       text-align: center;
+    }
+ }
+ 
+ /* End */
